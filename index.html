@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title id = "title">MUSIC</title>
+    <link rel="stylesheet" href="css/switch.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body id="body" class="noselect">
+    <div class="main-body">
+        <div class="main-play">
+            <button id="play"><i class="fas fa-play"></i></button>
+            <progress class="progress" value="0" max="100"></progress>
+            <a id="play_pos">0/0</a>
+        </div>
+    </div>
+
+    <button class="arrow expand-arrow"><</button>
+    <div class="filter" id="filter">
+        <div class="title-bar-filter">
+            <button class="arrow retract-arrow" id="retract-arrow">></button>
+            <a class="filter-title">FILTER</a>    
+        </div>
+        <div class="rain">
+            <label class="switch">
+                <input type="checkbox" id="rain">
+                <span class="slider round"></span>
+              </label>    
+              <a class="rain-text">Rain</a>    
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/c836045afc.js" crossorigin="anonymous"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/howler/dist/howler.js"></script>
+    <script src="js/function.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
